@@ -1,0 +1,233 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family:  'Quicksand', sans-serif;
+ }
+ 
+ .header{
+     min-height: 65vh;
+     width: 100%;
+     background-image: linear-gradient(rgba(19, 19, 1, 0.559),rgba(46, 50, 4, 0)),url(images/marina.jpg);
+     background-position: center;
+     background-size: cover;
+     position: relative;
+ 
+ }
+ .head{
+     min-height: 90vh;
+     width: 100%;
+     background-image: linear-gradient(rgba(19, 19, 1, 0.559),rgba(46, 50, 4, 0)),url(images/marina.jpg);
+     background-position: center;
+     background-size: cover;
+     position: relative;
+ }
+.head h4{
+    animation-name: slidein;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes slidein {
+    0% {
+      margin-top: 0%;
+      margin-bottom: 0%;
+    }
+    50% {
+      margin-top: 15%;
+      margin-bottom: 0%;
+    }
+    100% {
+      margin-top: 0%;
+      margin-bottom: 0%;
+    }
+  }
+ .nav-links span{
+    color: rgba(238, 237, 229, 0.718);
+    font-family: 'Babylonica', cursive;
+    font-size: 20px;
+    font-weight: bold;
+ }
+  
+ nav{
+     padding: 2% 6%;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ nav div{
+     text-align: right;
+ }
+ 
+ .nav-links{
+     flex: 1;
+ }
+ 
+ nav a{
+     width: 10%;
+     height: 10%;
+     float: left;
+     text-decoration: none;
+ }
+ .nav-links ul li{
+     list-style: none;
+     display: inline-block;
+     padding: 8px 8px;
+     position: relative;
+     text-align: right; 
+     border-radius: 5px;
+ 
+ }
+ 
+ .nav-links ul li a{
+     color: rgba(238, 237, 229, 0.718);
+     text-decoration: none;
+     font-size: 14px;
+ }
+ 
+ .nav-links ul li a:hover{
+     text-decoration: underline;
+     transition: 1s;
+ 
+ }
+ .nav-links ul li a:visited{
+    text-decoration: underline;
+ }
+ 
+ .textbox{
+     width: 90%;
+     color: rgba(242, 242, 239, 0.882);
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+ 
+ }
+ .textbox h1{
+     font-size: 45px;
+ }
+ .textbox h4{
+     margin: 10px 0px 14px;
+     font-size: 20px;
+ }
+ 
+ .textbox a{
+     display: inline-block;
+     text-decoration: none;
+     color: #fff;
+     border: 1px solid rgb(117, 117, 131);
+     padding: 10px 34px;
+     margin-top: 20px;
+     background: transparent;
+     cursor: pointer;
+     border-radius: 50px;
+ }
+ 
+ .textbox a:hover{
+     background-color: rgba(70, 56, 5, 0.468);
+     border: none;
+     transition: 0.6s;
+ }
+ 
+ 
+ .content{
+     width: 80%;
+     margin: auto;
+     text-align: center;
+     padding-top: 90px;
+ }
+ 
+ .content h1{
+     font-size: 30px;
+     font-weight: 800;
+ }
+ 
+ .content p{
+     color: rgb(9, 2, 52);
+     font-size: 14px;
+     padding: 10px;
+ }
+ .content ul li{
+     font-size: 14px;
+     list-style: none;
+ }
+ 
+ .content-col{
+ 
+     flex-basis: 30%;
+     background: rgb(232, 232, 238);
+     border-radius: 15px;
+     justify-content: space-between;
+     margin-bottom: 5%;
+     margin-top: 3%;
+     padding: 15px 12px;
+     box-sizing: border-box;
+     transition: 0.5s;
+ }
+ .content-col img{
+    object-fit: contain;
+    width: 90%;
+    border-radius: 10px;
+ }
+ .content-col ul li{
+    padding: 2px 0;
+    font-size: 15px;
+ }
+ .content-col a{
+    color: #222222b7;
+    text-decoration: double;
+ }
+ .content-col a:hover{
+    color: #000;
+ }
+
+ 
+ .content-col h4{
+     text-align: center;
+     font-weight: 600;
+     margin: 10px 0;
+ }
+ 
+ .content-col:hover{
+     box-shadow: 0 0 20px 0px rgba(6, 24, 96, 0.7);
+ }
+ 
+.book{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin: 15px 20px 15px;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+input, select{
+    width: 80%;
+    margin: 2% 3% 2%;
+    height: 5vh
+}
+label{
+    margin: 1% 1% 0;
+}
+legend{
+    padding: 5px;
+    font-weight: 700;
+}
+.footer{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    color: #fff;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
