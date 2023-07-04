@@ -81,6 +81,7 @@
      color: rgba(238, 237, 229, 0.718);
      text-decoration: none;
      font-size: 14px;
+     padding-bottom: 5px;
  }
  
  .nav-links ul li a:hover{
