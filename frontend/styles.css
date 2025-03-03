@@ -7,7 +7,7 @@
  .header{
      min-height: 65vh;
      width: 100%;
-     background-image: linear-gradient(rgba(19, 19, 1, 0.559),rgba(46, 50, 4, 0)),url(images/marina.jpg);
+     background-image: linear-gradient(rgba(19, 19, 1, 0.559),rgba(46, 50, 4, 0)),url(../images/marina.jpg);
      background-position: center;
      background-size: cover;
      position: relative;
@@ -16,7 +16,7 @@
  .head{
      min-height: 90vh;
      width: 100%;
-     background-image: linear-gradient(rgba(19, 19, 1, 0.559),rgba(46, 50, 4, 0)),url(images/marina.jpg);
+     background-image: linear-gradient(rgba(19, 19, 1, 0.559),rgba(46, 50, 4, 0)),url(../images/marina.jpg);
      background-position: center;
      background-size: cover;
      position: relative;
