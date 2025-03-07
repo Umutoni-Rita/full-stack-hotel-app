@@ -1,0 +1,22 @@
+{
+  "name": "hotel-book-backend",
+  "version": "1.0.0",
+  "description": "A backend that handles users' booking information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umutoni-Rita/full-stack-hotel-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Umutoni-Rita/full-stack-hotel-app/issues"
+  },
+  "homepage": "https://github.com/Umutoni-Rita/full-stack-hotel-app#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
